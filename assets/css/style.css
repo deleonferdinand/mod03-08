@@ -1,0 +1,134 @@
+* {
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+body {
+	background-image: url("../images/wallpaper.png");
+	background-position: fixed;
+
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+/*	border: 1px solid red; */
+}
+
+.container {
+/*background-color: #EAEDF0;*/
+	margin: 0 auto;
+}
+	
+
+.menu {
+	height: 100px;
+	background-image: url("../images/banner.jpg");
+	background-color: #3B3A30;
+	background-size: cover;
+	text-align: center;
+
+
+}
+
+h1 {
+	color: #e0e2e4;
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+}
+
+.sidebar {
+	height: 500px;
+	background-color: #D64161;
+	width: 200px;
+	float: left;
+	opacity: .95;
+	background-image: url("../images/verticalbanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content {
+	height: 500px;
+	background-color:  #484F4F;
+	width: 650px;
+	float: left;
+	padding: 20px;
+	overflow: scroll;
+	color: #E0E2E4;
+}
+
+.footer {
+/*	height: 200px;*/
+	background-color:  #D6E9FE;
+	clear: both;
+/*	border:5px solid red;*/
+	opacity: .90;
+	background-image: url("../images/banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.column {
+	background-color: rgba(62, 68, 68, .9);
+	height:  160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+
+}
+
+.article-image{
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 10px;
+	margin-bottom: 10px;
+	text-indent: 50px;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+}
+
+.avatar img {
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;	
+	margin: 0 auto;
+}
+
+.username {
+	margin-top: 30px;
+	color: #E0E2E4;
+	font-family: 'Lobster', cursive;
+
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden; /*hides text underneath avatar*/
+	color: #E0E2E4;
+	font-family: 'PT Sans', sans-serif;
+}
